@@ -25,3 +25,12 @@ alert("Krzys");
 document.body.innerHTML = "This is some content";
 
 
+Whether I want to write something in document use "document.write" or make some statements I do this :
+document.body.innerHTML = "This is some content ";
+var person = "Marcin";
+var woman = "Andy";
+if(person == "Daniel")
+{alert("The variable person is fine");}
+
+document.write (person);
+document.write (" has pro skills")
