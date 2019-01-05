@@ -34,3 +34,6 @@ if(person == "Daniel")
 
 document.write (person);
 document.write (" has pro skills")
+
+In javaScript we are able to make an array which contains different variable types as elements! wowz :
+var person = {name:"Marcin", numberOfLegs:"3", secondName "Maciej"};
