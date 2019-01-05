@@ -44,3 +44,12 @@ function myScript()
 myScript();
 
 There is slightly difference beetween ++5 and 5++.
+
+If I want to induce some event on click using java script then :
+<body>
+<p onclick = "myScript()">Clickme!</p>
+</body>
+function myScript()
+{
+document.write ("clicked");
+}
