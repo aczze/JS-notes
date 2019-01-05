@@ -8,7 +8,7 @@ how to make alert to site :
 </head>
 <body>
 <script>
-	alert("Krzysiek Isanski to pedau");
+	alert("Krzysiek I");
 </script>
 
 
