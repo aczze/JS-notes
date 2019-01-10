@@ -93,3 +93,22 @@ else {
   document.write("There's no number");
 }
 
+Some methods in JavaScript :
+
+All the properties: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Properties_Index
+
+All the methosds: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index
+
+var string1 = "Let me own them wigga"
+
+dcoument.write(string1.IndexOf("own")); //7 - the first letter of word 'own' as index.
+
+document.write(string1.substring(3, 9)); //me ow - the letters from index 3 to 9
+
+document.write(string1.replace("wigga", "whiteguy")); //Let me own them whiteguy 
+
+document.write(string1.toUpperCase()); //LET ME OWN THEM WIGGA 
+
+var items = ["We", "r", "the", 1];
+console.log(items);
+document.write(items); //We,r,the,1 
