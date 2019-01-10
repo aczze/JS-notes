@@ -55,13 +55,41 @@ document.write ("clicked");
 }
 
 Assignment operator :
+
 var number = 10;
 number *= 5;
 50
 
 Interesting usage of string :
+
 var tactic = 1337;
 var string = "This is the " + tactic + " we can win this in " + 5 + " seconds";
 document.write(string);
 This is the 1337 we can win this in 5 seconds. 
+
+Making some conditions :
+
+var tactic = 1337;
+var string = "This is the " + tactic + " we can win this in " + 5 + " seconds.";
+
+var number1 = 1000;
+var number2 = 337;
+var typeOfNumber = 1;
+
+if(number1 + number2 == 1337 || number2 > 387) // || OR. && AND
+{
+  document.write(string);//in this case it will print.
+}
+else if (number1 + number2 != 1337 && number1 + number2 === typeOfNumber)
+{
+    document.write("The number1 and number2 does not equal 1337. :c");
+}
+else {
+  document.write("There's no number");
+}
+Whether the number1 and number2 is integer, there will print if and else if.
+But If number1 and number2 is string or something else there will print :
+else {
+  document.write("There's no number");
+}
 
