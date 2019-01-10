@@ -53,3 +53,15 @@ function myScript()
 {
 document.write ("clicked");
 }
+
+Assignment operator :
+var number = 10;
+number *= 5;
+50
+
+Interesting usage of string :
+var tactic = 1337;
+var string = "This is the " + tactic + " we can win this in " + 5 + " seconds";
+document.write(string);
+This is the 1337 we can win this in 5 seconds. 
+
