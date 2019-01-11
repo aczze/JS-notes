@@ -122,3 +122,18 @@ function rush(x)
 }
 
 document.write(rush("b"));
+
+OR :
+
+var russianTactic = function(a) {
+  var russianTactic = "Let's rush " + a;
+  return russianTactic;
+}
+var actualTactic = "a";
+console.log(russianTactic(actualTactic))
+
+Var vs let type variables:
+
+Let behaves like a normal object typed in c++ (Scope rules).
+Whether we type "var" we can have an access stored variable in function - outside of function. 
+So the scope is not function size but block size.
