@@ -112,3 +112,13 @@ document.write(string1.toUpperCase()); //LET ME OWN THEM WIGGA
 var items = ["We", "r", "the", 1];
 console.log(items);
 document.write(items); //We,r,the,1 
+
+Refering to a variable in a function :
+
+function rush(x)
+{
+  var russianTactic = "Let's rush " + x;
+  return russianTactic;
+}
+
+document.write(rush("b"));
