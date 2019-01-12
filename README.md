@@ -137,3 +137,10 @@ Var vs let type variables:
 Let behaves like a normal object typed in c++ (Scope rules).
 Whether we type "var" we can have an access stored variable in function - outside of function. 
 So the scope is not function size but block size.
+
+Hoisting :
+
+x = "dooo";
+document.write(x); //prints 'dooo' anyways
+var x;
+
