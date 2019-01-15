@@ -144,3 +144,16 @@ x = "dooo";
 document.write(x); //prints 'dooo' anyways
 var x;
 
+Objects in javaScript :
+
+let gamah = {
+gamah.skill = 10;
+gamah.name = cifff;
+gamah.age = 24;
+gamah.updateSkill = funtion() {
+return ++gamah.skill;
+}
+}
+console.log(gamah.name); //24
+console.log(gamah.updateSkill); //11
+
