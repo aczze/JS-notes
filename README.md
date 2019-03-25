@@ -157,7 +157,9 @@ return ++gamah.skill;
 console.log(gamah.name); //24
 console.log(gamah.updateSkill); //11
 
-Generating random number :
+Operators :
+
+
 
 
 
